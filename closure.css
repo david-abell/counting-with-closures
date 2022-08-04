@@ -1,0 +1,57 @@
+:root {
+  --container-md: 32rem;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* 
+  The bootstrap way with padding
+*/
+
+/* body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  padding: calc(50vh - calc(var(--container-md) / 2))
+    calc(50vw - calc(var(--container-md) / 2));
+}
+
+.container {
+  height: var(--container-md);
+  width: var(--container-md);
+  background-color: red;
+} */
+
+body {
+  /* display: block; */
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.container {
+  /* height: var(--container-md); */
+  width: var(--container-md);
+  /* background-color: red; */
+  outline: green solid 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+.total-count {
+  font-size: 8rem;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem;
+}
