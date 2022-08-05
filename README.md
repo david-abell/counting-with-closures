@@ -1,4 +1,4 @@
-# A counter app built as an afternoon interview prep project
+# A counter app built as an interview prep project
 
 Try it out at [https://david-abell.github.io/counting-with-closures](https://david-abell.github.io/counting-with-closures)
 
@@ -13,6 +13,7 @@ Try it out at [https://david-abell.github.io/counting-with-closures](https://dav
 - To practice basic HTML, CSS, and Javascript skills as part of interview prep.
 - Experiment with a couple methods for centering divs.
 - Create an interactive add counter function to demonstrate how closure effects multiple elements created with the same code.
+- To Do: add a stopwatch button to timers.
 
 ## Lessons learned/ problems encountered
 
