@@ -18,6 +18,7 @@ Try it out at [https://david-abell.github.io/counting-with-closures](https://dav
 ## Lessons learned/ problems encountered
 
 - I'd been working previously with Bootstrap and was curious to see how easy it was to implement a fully centered div using calc and padding. See commented css for this solution. While an interesting excercise and not that complicated, it was still much more complicated than just using flexbox.
+- setInterval() is not cleared when dom nodes are removed and must be manually cleared beforehand.
 
 ## Installation
 
