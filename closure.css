@@ -28,30 +28,45 @@
 } */
 
 body {
-  /* display: block; */
   min-height: 100vh;
   padding: 3rem;
 }
 
 .container {
-  /* height: var(--container-md); */
-  width: var(--container-md);
-  /* background-color: red; */
-  outline: green solid 2px;
+  max-width: var(--container-md);
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 2rem 1rem;
   margin: 0 auto;
+  gap: 1rem;
+}
+
+.card {
+  outline: black solid 2px;
+  border-radius: 0.4rem;
 }
 
 .total-count {
   font-size: 8rem;
 }
 
-button {
+.count-control {
   font-size: 1.6rem;
   padding: 0.25rem;
   border-radius: 0.25rem;
-  margin: 0 0.5rem;
+  margin: 0.5rem;
+}
+.container .count-control:first-of-type {
+  margin-inline: 0;
+}
+
+.count-control-add {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.count-control-subtract {
+  background-color: red;
+  color: whitesmoke;
 }
